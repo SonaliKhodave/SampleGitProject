@@ -12,6 +12,7 @@ public class LoginTC01 extends Baseclass {
 
         Loginpage lp =new Loginpage(driver);
         lp.setUsername(username);
+        System.out.println("first change ");
 
     }
 }
